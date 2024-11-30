@@ -1,0 +1,20 @@
+ 
+
+ .App-header {
+    background-color: rgb(58, 142, 138);
+    height: 130px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px  1px 5px black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+ }
+ .App-header div {
+   font-size: 25px;
+ }
+ .App-header h1 {
+  text-shadow: 1px 5px 3px 1px black;
+ }

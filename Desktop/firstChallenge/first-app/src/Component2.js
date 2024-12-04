@@ -1,9 +1,10 @@
-export default function Component2() {
+export default function Component2(props) {
     return (
-      <div>     
-        <h2>This is the post Title</h2>
+      <div>
+        <h2>{props.num}</h2>     
+        <h2 className= "h2">{props.name}</h2>
         <hr></hr>
-        <p>This is the post body</p>
+        <p>{props.title }</p>
     </div>
        
     )

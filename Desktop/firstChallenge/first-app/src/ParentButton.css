@@ -1,27 +1,43 @@
 .parent {
-    width: 350px;
-    height: 500px;
-    border: 5px solid rgb(58, 142, 138);
+    width: 430px;
+    max-height: 450px;
     text-align: center;
+    border: 5px solid rgb(58, 142, 138);
+    box-sizing: border-box;
+    padding: 10px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px;
-    box-sizing: border-box;
     justify-content: center;
-    padding: 10px;
-    padding-bottom: 10px;
+    gap: 30px;
 }
 
 .parent button {
-    width:90px ;
-    height: 35px;
+    max-width: 150px;
     color: white;
     background-color: blueviolet;
+    border-radius: 5px;
     border: none;
-    border-radius: 3px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.parent button:hover {
+ button:hover {
     background-color: rgb(75, 10, 136);
+}
+.icon {
+    width: 30px;
+}
+.img {
+    width: 130px;
+    height: 130px;
+}
+
+.parent .custom-button{
+    height: 50px;
 }

@@ -1,5 +1,12 @@
-export default function ReturnButton() {
+export default function ReturnButton({title ,children , className}) {
+    if (title == null || title === "") {
+        return null
+      }
     return (
-        <button>Tag Button</button>
+        <button className={className}>
+        {title}
+        {children}
+        </button>
+      
     )
 }
